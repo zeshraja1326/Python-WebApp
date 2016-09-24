@@ -43,7 +43,7 @@ def APITests():
 
         try: #try to add values into database, if you have same values entered, will force 403 error
             t = Test(title=title) #create new object
-            db.session.add(t) #add to databasa
+            db.session.add(t) #add to database
             db.session.commit() #commit changes
 
             return jsonify(created_id=t.id) #return id of created data (optional)
