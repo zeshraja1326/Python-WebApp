@@ -17,6 +17,7 @@ My own WEB-Application template written in Python(backend) and AngularJS(fronten
     - __init__.py turns whole application backend together with all imports and data
     - __controllers__.py the whole action happens here
     - __models.py__ defines our classes, required for database and managing objects
+    
 ---
 ####Database and backend tools
 - __config__.py is our configuration data, we will look into it soon
@@ -29,6 +30,7 @@ My own WEB-Application template written in Python(backend) and AngularJS(fronten
 - __run__.py run application (on local machines)
 - __runproc__.py run application with forced debug mode
 - __runserver__.py run application on server (will not work for local machine)
+
 ---
 ####Application Files (Frontend)
 - __index__.html index file (displayed in browser)
