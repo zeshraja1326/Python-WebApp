@@ -7,7 +7,7 @@ from models import Test
 from sqlalchemy.exc import IntegrityError
 
 ###############
-## Responces ##
+## Responses ##
 ###############
 OK = ('', 200) #if everything was OK
 created = ('', 201) #if something was created
