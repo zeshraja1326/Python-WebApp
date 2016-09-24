@@ -7,7 +7,7 @@ from models import Test
 from sqlalchemy.exc import IntegrityError
 
 ###############
-## Callbacks ##
+## Responses ##
 ###############
 OK = ('', 200) #if everything was OK
 created = ('', 201) #if something was created
@@ -19,7 +19,6 @@ notfound = ('', 404) #force 404 error
 #################
 #### Routes  ####
 #################
-
 @app.route('/') #first create a index page
 @app.route('/index') #second route, but does the same
 def index(): #define function
