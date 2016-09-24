@@ -15,8 +15,8 @@ My own WEB-Application template written in Python(backend) and AngularJS(fronten
 
 - /app
     - __init__.py turns whole application backend together with all imports and data
-    - __controllers__.py the whole action happens here
-    - __models.py__ defines our classes, required for database and managing objects
+    - __controllers__.py the action happens here
+    - __models__.py defines our classes, required for database and managing objects
     
 ---
 ####Database and backend tools
@@ -34,7 +34,7 @@ My own WEB-Application template written in Python(backend) and AngularJS(fronten
 ---
 ####Application Files (Frontend)
 - __index__.html index file (displayed in browser)
-- /app/__app__.js main application file, used to connect backend with frontend
+- /app/__app__.js main application file, used to connect webapp with backend
 - /app/__app__.css application stylesheet
 
 ###Requirements
@@ -60,9 +60,8 @@ I use PostgreSQL to work with data, but if you need you can use any other suppor
                 SQLALCHEMY_DATABASE_URI = 'postgres://username:password@server:5432/database'
 to your data and __save__
 
-Run __db_create__.py to create database
-
-(Optional) Run __db_migrate__.py to make your first migration!
+- Run __db_create__.py to create database
+- (Optional) Run __db_migrate__.py to make your first migration!
 
 ---
 
@@ -77,7 +76,7 @@ Run __db_create__.py to create database
 - Start Webserver
 __If you are familiar with Python__ you may use SimpleHTTP server
                 python -m SimpleHTTPServer
-__Use other web-servers__ to store server your application
+__Or use other web-servers__ to store server your application
 
 - Visit __127.0.0.1:80__ __NOTICE:__ The address is depending on which server you are running the web application, you may have to use yours
 
