@@ -50,6 +50,7 @@ My own WEB-Application template written in Python(backend) and AngularJS(fronten
 __Notice:__ I have tons of depencies in requirements, but this will do your work quicklier if you need to scale your application ;)
 
 ``` pip install -r requirements.txt ```
+
 ---                
 ###Setup Database
 I use PostgreSQL to work with data, but if you need you can use any other supported databases
