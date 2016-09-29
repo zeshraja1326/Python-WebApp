@@ -1,7 +1,7 @@
 # Python-WebApp
 My own WEB-Application template written in Python(backend) and AngularJS(frontend)
 
-####FOLLOW THE DOCUMENTATION IN THE FILES, IT'S THE MOST IMPORTANT THING IN THIS WHOLE PROJECT!
+####FOLLOW THE DOCUMENTATION IN THE FILES, IT'S THE MOST IMPORTANT THING IN THIS ENTIRE PROJECT!
 
 ##Overview
     
@@ -49,7 +49,7 @@ My own WEB-Application template written in Python(backend) and AngularJS(fronten
 ###Install Depencies
 __Notice:__ I have tons of depencies in requirements, but this will do your work quicklier if you need to scale your application ;)
 
-                pip install -r requirements.txt
+``` pip install -r requirements.txt ```
 ---                
 ###Setup Database
 I use PostgreSQL to work with data, but if you need you can use any other supported databases
@@ -57,7 +57,7 @@ I use PostgreSQL to work with data, but if you need you can use any other suppor
 - Open __config__.py located in /Backend/__config__.py
                 
 - Change      
-                SQLALCHEMY_DATABASE_URI = 'postgres://username:password@server:5432/database'
+``` SQLALCHEMY_DATABASE_URI = 'postgres://username:password@server:5432/database' ```
 to your data and __save__
 
 - Run __db_create__.py to create database
@@ -68,14 +68,14 @@ to your data and __save__
 ###Get started & run application
 ####Run server side
 - Run (from console or your IDE) located at /Backend/__run__.py
-                python2 run.py
+``` python2 run.py ```
 - Visit __127.0.0.1:5000__ to check if everything is OK
 
 ####Run Web application
 - Move to /Web/__index__.html
 - Start Webserver
 __If you are familiar with Python__ you may use SimpleHTTP server
-                python -m SimpleHTTPServer
+```python -m SimpleHTTPServer```
 __Or use other web-servers__ to store server your application
 
 - Visit __127.0.0.1:80__ __NOTICE:__ The address is depending on which server you are running the web application, you may have to use yours
